@@ -1,0 +1,21 @@
+Variable Name,Type,Source,Description
+country,Text,World Bank,Country name
+country_code,Text,World Bank,ISO 3-letter country code
+year,Numeric,World Bank,Calendar year (2010-2023)
+tourism_receipts_usd,Numeric,World Bank,International tourism receipts (current US$)
+tourism_arrivals,Numeric,World Bank,International tourist arrivals (number)
+gdp_usd,Numeric,World Bank,GDP (current US$)
+gdp_per_capita_usd,Numeric,World Bank,GDP per capita (current US$)
+gdp_growth_pct,Numeric,World Bank,GDP growth rate (% annual)
+unemployment_rate,Numeric,World Bank,Unemployment (% of labor force)
+inflation_rate,Numeric,World Bank,Inflation rate (% annual)
+air_passengers,Numeric,World Bank,Air transport passengers carried (annual)
+urban_pop_pct,Numeric,World Bank,Urban population (% of total)
+tourism_receipts_lag1,Numeric,Derived,Tourism receipts from previous year
+tourism_arrivals_lag1,Numeric,Derived,Tourist arrivals from previous year
+gdp_lag1,Numeric,Derived,GDP from previous year
+tourism_receipts_growth,Numeric,Derived,Year-over-year tourism receipts growth (%)
+tourism_arrivals_growth,Numeric,Derived,Year-over-year tourist arrivals growth (%)
+revenue_per_tourist,Numeric,Derived,Average spending per tourist (USD)
+log_gdp_pc,Numeric,Derived,Log of GDP per capita
+tourism_pct_gdp,Numeric,Derived,Tourism receipts as % of GDP
